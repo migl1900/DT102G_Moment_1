@@ -1,0 +1,27 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Startsida";
+}
+
+<div>
+    <h1 class="display-4">ASP.NET Core och Razor</h1>
+    <p>
+        Denna webbplats är en laboration i kursen ASP.NET med C# och som går ut på att skapa en enklare webbplats med hjälp av ASP.NET Core och Razor.
+    </p>
+    <p>
+        För att testa så att JavaScript fungerar i extern fil kan du prova att byta rubrikfärger nedan.
+    </p>
+    <p>
+        På sidan Razor finns lite olika funktioner skapapade med Razor-syntax.
+    </p>
+    <p>
+        På Om sidan kan ni läsa lite mer om mig som skapat denna webbplats.
+    </p>
+    <h1 class="display-4">Byt färg på rubrikerna</h1>
+    <button type="button" class="btn btn-secondary mt-3" onclick="changeColor('text-dark')">Ingen</button>
+    <button type="button" class="btn btn-primary mt-3" onclick="changeColor('text-primary')">Blå</button>
+    <button type="button" class="btn btn-success mt-3" onclick="changeColor('text-success')">Grön</button>
+    <button type="button" class="btn btn-danger mt-3" onclick="changeColor('text-danger')">Röd</button>
+    <button type="button" class="btn btn-warning mt-3" onclick="changeColor('text-warning')">Orange</button>
+</div>
